@@ -1,0 +1,43 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_triangle_validtriangle_2_3_5_expect_valid
+  :line: 12
+  :message: ''
+- :test: test_triangle_validtriangle_2_3_10_expect_invalid
+  :line: 24
+  :message: ''
+- :test: test_triangle_checktype_2_3_5_expect_accute
+  :line: 36
+  :message: ''
+- :test: test_triangle_checktype_9_11_14_expect_accute
+  :line: 44
+  :message: ''
+- :test: test_triangle_checktype_3_4_5_expect_accute
+  :line: 52
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- short1:2
+- short2:4
+- long1:5
+- short1:1
+- short2:5
+- long1:10
+- short1:2
+- short2:3
+- long1:5
+- short1:9
+- short2:11
+- long1:14
+- short1:12
+- short2:5
+- long1:13
